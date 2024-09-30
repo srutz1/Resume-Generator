@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>RESUME GENERATOR</title>
+</head>
+
+<body>
+    <!-- RESUME TEMPLATE -->
+
+    <div class="container" id="resume-template"></div>
+    <div class="row">
+        <div class="col-md-4 text-center py-5 column">
+            <!-- first col -->
+            <img src="defaultprofile.jpg" alt="Profile" class="img-fluid myimg" />
+            <div class="container">
+                <h6>Contact Information</h6>
+                <p id="contactT">+918888888888,+911234567890</p>
+                <p id="emailT">xyz@email.com</p>
+                <p id="addressT">13-B Delhi , India</p>
+                <hr />
+                <p>
+                    <a id="linkedT" href="https://in.linkedin.com/">https://www.linkedin.com/xyz</a>
+                </p>
+                <p>
+                    <a id="leetcodeT" href="https://leetcode.com/">https://www.leetcode.com/xyz</a>
+                </p>
+                <p>
+                    <a id="gitT" href="https://github.com/">https://www.github.com/xyz</a>
+                </p>
+            </div>
+        </div>
+        <div class="col-md-8 py-5">
+            <!-- read about py-5 from net if you have any problem -->
+            <!-- second col -->
+            <h2 id="nameT" style="font-weight: 980">Shivendra Gupta</h2>
+
+            <!-- objective card -->
+            <div class="card mt-4">
+
+                <!--taking column css tag didnt make the background colour of heder
+                blue because the bootstrap files card-header basic background 
+            color was been taken check yourself and correct it-->
+                <div class=" card-header" style="background-color: aqua;">
+                    <h3>Objective</h3>
+                </div>
+
+                <div class="card-body">
+                    <p id="objectiveT">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit commodi atque velit molestiae
+                        ex odio quo, odit ad. Ea magnam hic aspernatur eos eligendi quidem deleniti perferendis, sed,
+                        esse quibusdam unde tempore doloremque omnis, fuga error voluptatem similique cumque maiores
+                        iusto. Nulla veniam obcaecati in illo consequatur voluptates, non suscipit?</p>
+                </div>
+            </div>
+
+            <!-- work experience card-->
+            <div class="card mt-4">
+                <div class="card-header" style="background-color: aqua;">
+                    <h3>Work Experience</h3>
+                </div>
+
+                <div class="card-body">
+                    <ul id="weT">
+                        <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, eum?</li>
+                        <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, eum?</li>
+                        <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, eum?</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Academic Qualification card-->
+
+            <div class="card mt-4">
+                <div class="card-header" style="background-color: aqua;">
+                    <h3>Academic Qualification</h3>
+                </div>
+
+                <div class="card-body">
+                    <ul id="aqT">
+                        <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, eum?</li>
+                        <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, eum?</li>
+                        <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, eum?</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- print button-->
+        <div class="container text-center mt-3">
+            <button onclick="printResume()" class="btn" style="background-color: aqua;">
+                Print Resume
+            </button>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

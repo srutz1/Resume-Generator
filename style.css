@@ -1,0 +1,15 @@
+
+.resume-template {
+ display: none;
+}
+
+.myimg{
+    border: 2px black;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    padding: 5px;
+}
+.column{
+    background-color: aqua;
+}
